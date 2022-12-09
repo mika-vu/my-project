@@ -127,11 +127,9 @@ const TabPanel = ({ Icon, selected, id, setSelected, label, children }) => {
 const CardImage = ({ src }) => {
   return (
     <div
+      className="bg-cover bg-no-repeat bg-center"
       style={{
         backgroundImage: `url(${src})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
       }}
     />
   );
@@ -241,7 +239,7 @@ function App() {
           />
         </div>
 
-        <div className="xl:flex items-center justify-center my-12.5 hidden">
+        <div className="flex items-center justify-center xl:my-12.5 my-7.5">
           <DotChoose className="mr-4" />
           <Dot />
         </div>

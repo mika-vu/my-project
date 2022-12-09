@@ -39,6 +39,7 @@ module.exports = {
       fontSize: {
         xl: ["21px", "31.5px"],
         xs: ["13px", "32px"],
+        "5xl": ["45px", "67.5px"],
       },
       borderRadius: {
         lg: "10px",
